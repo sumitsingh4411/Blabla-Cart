@@ -5,24 +5,29 @@ import './ProductList.css'
 
 function ModalList() {
     const mycartlist = useSelector((state) => state.addtocart);
-    console.log('hello sumit singh', mycartlist)
     return (
-        <div 
-        className="mymodal"
-        style={{
-            cursor:'default',
-            display: 'flex',
-            flexDirection: 'column',
-            position: 'absolute',
-            top: 90,
-            right: 35,
-            width: '30vw',
-            padding: 10,
-            scrollBehavior:'-moz-initial',
-        }}>
+        <div
+            className="mymodal"
+            style={{
+                cursor: 'default',
+                display: 'flex',
+                flexDirection: 'column',
+                position: 'absolute',
+                top: 90,
+                right: 35,
+                width: '30vw',
+                padding: 10,
+                scrollBehavior: '-moz-initial',
+            }}>
             {
-                mycartlist.map(e => (
-                    <Modal name={e.name} imgsrc={e.imgsrc} />
+                mycartlist.split('#').map((e, index) => (
+                    <>
+                        {
+                            e.length >= 5 && (
+                                <Modal name={e.split(',')[0]} imgsrc={e.split(',')[1]} key={index} />
+                            )
+                        }
+                    </>
                 ))
             }
         </div>

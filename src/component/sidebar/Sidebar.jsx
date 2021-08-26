@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux';
 
 function Sidebar() {
     const mycatrgory = useSelector((state) => state.choosecategory);
+    
     const catergoryName = ["Electronics", "Fashion", "Appliances"];
     return (
         <div className="sidebar">

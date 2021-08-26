@@ -14,7 +14,8 @@ function Product({ imgscr, name }) {
             </div>
             <div className="bottom">
                 <p className="name">{name}</p>
-                <button style={{ width: '10vw', height: '4vh' }} onClick={() => dispatch(AddtoCart(name, imgscr))}>Add to Cart</button>
+                <button style={{ width: '10vw', height: '4vh' }}
+                    onClick={() => dispatch(AddtoCart(name + ',' + imgscr))}>Add to Cart</button>
             </div>
         </div>
     )

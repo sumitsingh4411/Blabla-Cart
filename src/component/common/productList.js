@@ -81,7 +81,7 @@ const productList = [
         id: 14,
         category: 'Fashion',
         name: 'Cloth',
-        imgsrc: 'https://rukminim1.flixcart.com/image/660/792/kmi2g7k0/t-shirt/d/d/n/l-couplefsr1-lappen-fashion-original-imagfec2n2gkbbyf.jpeg?q=50'
+        imgsrc: 'https://rukminim1.flixcart.com/image/660/792/khuvxjk0-0/t-shirt/7/l/j/s-cv-ts97-vero-lie-original-imafxruepxg2zswb.jpeg?q=50'
     },
     {
         id: 15,
@@ -105,7 +105,7 @@ const productList = [
         id: 18,
         category: 'Fashion',
         name: 'Cloth',
-        imgsrc: 'https://rukminim1.flixcart.com/image/660/792/kmi2g7k0/t-shirt/d/d/n/l-couplefsr1-lappen-fashion-original-imagfec2n2gkbbyf.jpeg?q=50'
+        imgsrc: 'https://rukminim1.flixcart.com/image/660/792/khuvxjk0-0/t-shirt/7/l/j/s-cv-ts97-vero-lie-original-imafxruepxg2zswb.jpeg?q=50'
     },
     {
         id: 19,
@@ -135,7 +135,7 @@ const productList = [
         id: 23,
         category: 'Appliances',
         name: 'Freeze',
-        imgsrc: 'https://rukminim1.flixcart.com/image/660/792/kmi2g7k0/t-shirt/d/d/n/l-couplefsr1-lappen-fashion-original-imagfec2n2gkbbyf.jpeg?q=50'
+        imgsrc: 'https://rukminim1.flixcart.com/image/312/312/kl2mljk0/refrigerator-new/m/i/v/rr19a241bgs-nl-2-2021-samsung-original-imagy9pyfszpmgwm.jpeg?q=70'
     },
     {
         id: 24,
@@ -159,7 +159,7 @@ const productList = [
         id: 27,
         category: 'Appliances',
         name: 'Freeze',
-        imgsrc: 'https://rukminim1.flixcart.com/image/660/792/kmi2g7k0/t-shirt/d/d/n/l-couplefsr1-lappen-fashion-original-imagfec2n2gkbbyf.jpeg?q=50'
+        imgsrc: 'https://rukminim1.flixcart.com/image/312/312/kl2mljk0/refrigerator-new/m/i/v/rr19a241bgs-nl-2-2021-samsung-original-imagy9pyfszpmgwm.jpeg?q=70'
     },
     {
         id: 28,
@@ -183,7 +183,7 @@ const productList = [
         id: 31,
         category: 'Appliances',
         name: 'Freeze',
-        imgsrc: 'https://rukminim1.flixcart.com/image/660/792/kmi2g7k0/t-shirt/d/d/n/l-couplefsr1-lappen-fashion-original-imagfec2n2gkbbyf.jpeg?q=50'
+        imgsrc: 'https://rukminim1.flixcart.com/image/312/312/kl2mljk0/refrigerator-new/m/i/v/rr19a241bgs-nl-2-2021-samsung-original-imagy9pyfszpmgwm.jpeg?q=70'
     },
     {
         id: 32,
@@ -196,7 +196,7 @@ const productList = [
         id: 33,
         category: 'Appliances',
         name: 'Freeze',
-        imgsrc: 'https://rukminim1.flixcart.com/image/660/792/kmi2g7k0/t-shirt/d/d/n/l-couplefsr1-lappen-fashion-original-imagfec2n2gkbbyf.jpeg?q=50'
+        imgsrc: 'https://rukminim1.flixcart.com/image/312/312/kl2mljk0/refrigerator-new/m/i/v/rr19a241bgs-nl-2-2021-samsung-original-imagy9pyfszpmgwm.jpeg?q=70'
     },
 
 ]

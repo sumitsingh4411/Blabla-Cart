@@ -14,8 +14,8 @@ function Header() {
                 <p className="left"><Link className="leftLink" to='/'>BlablaCart</Link></p>
             </div>
             <div className="topStyleright">
-                <div className="cart" onClick={console.log('hello world')}>
-                    <p className="cartTop">{mycartlist.length}</p>
+                <div className="cart">
+                    <p className="cartTop">{mycartlist && mycartlist.split('#').filter(e => e.length > 5).length}</p>
                     <img src={cartimage} alt="Cart" className="CartImage" onClick={() => setshow(!show)} />
                     <div className="modal">
                         {

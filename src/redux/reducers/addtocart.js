@@ -1,18 +1,18 @@
-
-
-let initialstate = [];
+let initialstate = '';
 
 const addtocart = (state = initialstate, action) => {
-    const mydata = { name: action.name, imgsrc: action.imgsrc };
     switch (action.type) {
         case "ADDTOCART":
-            {
-            console.log(initialstate)
-            initialstate.push(mydata);
-            console.log(initialstate)
-            return state=initialstate;
-            }
-
+            initialstate += action.payload + '#';
+            return initialstate;
+        case "REMOVETOCART":
+            let arr = initialstate.split('#').filter(e => e !== action.payload);
+            let p = '';
+            // eslint-disable-next-line array-callback-return
+            arr.map(e => {
+                p += e + '#';
+            })
+            return initialstate = p;
         default:
             return state;
     }

@@ -7,10 +7,17 @@ export const categoryType = (category) => {
     }
 }
 
-export const AddtoCart = (name, imgsrc) => {
+export const AddtoCart = (name) => {
+
     return {
         type: "ADDTOCART",
-        name: name,
-        imgsrc: imgsrc,
+        payload: name
+    }
+}
+export const RemovetoCart = (remove) => {
+
+    return {
+        type: "REMOVETOCART",
+        payload: remove
     }
 }
