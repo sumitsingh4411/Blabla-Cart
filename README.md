@@ -1,3 +1,14 @@
+
+# live url https://blablacart.herokuapp.com/
+
+## how to start locally
+
+  1. Download this repository
+  2. open in text editor
+  3. run comman "npm install"
+  4. run command "npm start" for starting
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
