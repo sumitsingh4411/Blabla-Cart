@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './../header/Header';
 import ProductList from './../list/ProductList';
-import Product from './../product/Product';
+import Sidebar from './../sidebar/Sidebar';
 
 function Home() {
     return (
@@ -9,7 +9,7 @@ function Home() {
             <Header />
             <div style={{ display: 'flex', flexDirection: 'row' }}>
                 <div style={{ flex: 1 }}>
-                    <Product />
+                    <Sidebar />
                 </div>
                 <div style={{ flex: 4 }}>
                     <ProductList />

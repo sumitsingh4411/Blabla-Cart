@@ -1,0 +1,18 @@
+.mybutton{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.mybutton:hover{
+    background: red;
+    color: white;
+}
+.mybuttonText{
+    font-weight: bolder;
+}
